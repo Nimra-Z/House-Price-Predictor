@@ -1,5 +1,5 @@
 # House-Price-Predictor
-This project predicts house prices based on various features using machine learning. The application is built using a trained XGBoost regression model and deployed via Streamlit for an interactive user interface.
+This project predicts house prices based on various features using machine learning. The application is built using XGBoost regression model and deployed via Streamlit for an interactive user interface.
 
 ---
 
@@ -15,17 +15,17 @@ This project predicts house prices based on various features using machine learn
 House Price Prediction/
 │
 ├── App/
-│   └── Streamlit_App.py         # Streamlit application
+│   └── Streamlit_App.py                # Streamlit application
 │
 ├── data/
-│   └── HousePricePrediction.xlsx # Dataset used for training and prediction
+│   └── HousePricePrediction.xlsx       # Dataset used for training and prediction
 │
 ├── model/
-│   ├── XGB_regressor.pkl         # Trained XGBoost model
-│   └── House_Price_Prediction.ipynb # Jupyter notebook for model training
-│
-├── requirements.txt             # Python dependencies
-└── README.md                    # Project documentation
+│   └── XGB_regressor.pkl               # Trained XGBoost model
+│  
+├── House_Price_Prediction.ipynb        # Jupyter notebook for model training
+├── requirements.txt                    # Python dependencies
+└── README.md                           # Project documentation
 ```
 
 
