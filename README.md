@@ -9,7 +9,6 @@ This project predicts house prices based on various features using machine learn
 - **Feature Importance Visualization**: Displays SHAP values to explain model predictions.
 - **Data Preprocessing**: Includes data cleaning, feature selection, and encoding for categorical variables.
 
----
 
 ## File Structure
 ```
@@ -29,7 +28,6 @@ House Price Prediction/
 └── README.md                    # Project documentation
 ```
 
----
 
 ## How to Run the Project
 
@@ -51,7 +49,6 @@ House Price Prediction/
    ```
 3. Open the URL provided in the terminal (usually `http://localhost:8501`) in your web browser.
 
----
 
 ## Usage
 1. Use the sliders in the app to specify input parameters:
@@ -62,7 +59,6 @@ House Price Prediction/
 2. View the **predicted house price** based on the inputs.
 3. Explore **feature importance** visualizations to understand the model's decision-making.
 
----
 
 ## Dependencies
 - **Streamlit**: For deploying the web app.
@@ -78,7 +74,6 @@ To install all dependencies, use:
 pip install -r requirements.txt
 ```
 
----
 
 ## Future Improvements
 - Add additional model options (e.g., Random Forest, Linear Regression).
@@ -86,7 +81,6 @@ pip install -r requirements.txt
 - Deploy the app on a cloud platform like **Streamlit Cloud**, **Heroku**, or **AWS**.
 - Enhance the dataset with more features to improve predictions.
 
----
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
